@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@schedule-x/calendar": "^1.63.0",
+    "@schedule-x/drag-and-drop": "^1.63.0",
+    "@schedule-x/preact": "^1.2.1",
+    "@schedule-x/theme-default": "^1.63.0",
     "preact": "^10.22.1"
   },
   "devDependencies": {
