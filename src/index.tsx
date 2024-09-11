@@ -39,7 +39,50 @@ function CalendarApp() {
 		views: [viewMonthGrid, viewMonthAgenda, viewWeek, viewDay],
 		selectedDate: '2023-12-01',
 		defaultView: viewWeek.name,
-		events: Array.from(getEvents()),
+		events: [
+			{
+				id: 6,
+				title: 'Other appointment',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			},
+			{
+				id: 7,
+				title: 'Other appointment a',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			},
+			{
+				id: 8,
+				title: 'Other appointment b',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			},
+			{
+				id: 9,
+				title: 'Other appointment',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			},
+			{
+				id: 10,
+				title: 'Other appointment a',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			},
+			{
+				id: 11,
+				title: 'Other appointment b',
+				people: ['Susan', 'Mike'],
+				start: '2023-12-03 03:00',
+				end: '2023-12-03 04:00'
+			}
+		],
 		calendars: {
 		  leisure: {
 			colorName: 'leisure',
