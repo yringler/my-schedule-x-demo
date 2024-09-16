@@ -36,9 +36,9 @@ function CalendarApp() {
 
 
 	const calendar = useCalendarApp({
-		views: [viewMonthGrid, viewMonthAgenda, viewWeek, viewDay],
+		views: [createViewMonthGrid(), viewMonthAgenda, viewWeek, viewDay],
 		selectedDate: '2023-12-01',
-		defaultView: viewWeek.name,
+		defaultView: viewMonthGrid.name,
 		events: [
 			{
 				id: 6,
