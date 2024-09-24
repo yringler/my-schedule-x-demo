@@ -24,6 +24,7 @@ export class DatesCoreTimeUnits extends TimeUnitsImpl {
 	}
 }
 
+// https://dev.to/domhabersack/how-to-split-arrays-into-equal-sized-chunks-198h
 function chunkArray<T>(array: T[], chunkSize: number) {
 	const numberOfChunks = Math.ceil(array.length / chunkSize)
 
