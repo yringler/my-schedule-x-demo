@@ -1430,13 +1430,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jewish-dates-core@npm:^2.0.12":
+"jewish-dates-core@npm:2.0.12":
   version: 2.0.12
   resolution: "jewish-dates-core@npm:2.0.12"
   dependencies:
     dayjs: "npm:^1.11.7"
     jewish-date: "npm:^1.0.13"
   checksum: 10c0/104cbd38cfaa0be3b2367155e5b22130716cfc10f31b19cb9d168d55741de0955a80ee110c781ffe5a6987fe8c754d5f584677eb9f40f69603527d40081b87c3
+  languageName: node
+  linkType: hard
+
+"jewish-dates-core@patch:jewish-dates-core@npm%3A2.0.12#~/.yarn/patches/jewish-dates-core-npm-2.0.12-a1ef072384.patch":
+  version: 2.0.12
+  resolution: "jewish-dates-core@patch:jewish-dates-core@npm%3A2.0.12#~/.yarn/patches/jewish-dates-core-npm-2.0.12-a1ef072384.patch::version=2.0.12&hash=6c9390"
+  dependencies:
+    dayjs: "npm:^1.11.7"
+    jewish-date: "npm:^1.0.13"
+  checksum: 10c0/9f152f65bf64850adb7e6271e5f996af7ffff6e98a38e431cfbd12f2651ee3e485ca584d367cc036e81381f0de355a9d64f3ca85377bdc1e2be8437ca458b0d7
   languageName: node
   linkType: hard
 
@@ -1877,7 +1887,7 @@ __metadata:
     "@schedule-x/shared": "npm:^2.0.0"
     "@schedule-x/theme-default": "npm:^2.0.0"
     date-fns: "npm:^4.1.0"
-    jewish-dates-core: "npm:^2.0.12"
+    jewish-dates-core: "patch:jewish-dates-core@npm%3A2.0.12#~/.yarn/patches/jewish-dates-core-npm-2.0.12-a1ef072384.patch"
     preact: "npm:^10.24.0"
     typescript: "npm:^5.6.2"
     vite: "npm:^5.3.3"
