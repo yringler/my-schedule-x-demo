@@ -706,21 +706,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schedule-x/calendar@portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/calendar::locator=schedule-x-demo%40workspace%3A.":
+"@schedule-x/calendar@portal:../schedule-x/packages/calendar::locator=schedule-x-demo%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@schedule-x/calendar@portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/calendar::locator=schedule-x-demo%40workspace%3A."
+  resolution: "@schedule-x/calendar@portal:../schedule-x/packages/calendar::locator=schedule-x-demo%40workspace%3A."
   peerDependencies:
     "@preact/signals": ^1.1.5
     preact: ^10.19.2
   languageName: node
   linkType: soft
 
-"@schedule-x/drag-and-drop@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@schedule-x/drag-and-drop@npm:2.0.0"
-  checksum: 10c0/00c275da1257625a02037fb9dbee694135953a4ed980c9796121222301cffcf84c29ab737483ece5c96349e61a8b396464aecee520cbda88336c336fd7f0d97f
+"@schedule-x/drag-and-drop@portal:../schedule-x/packages/drag-and-drop::locator=schedule-x-demo%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@schedule-x/drag-and-drop@portal:../schedule-x/packages/drag-and-drop::locator=schedule-x-demo%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@schedule-x/preact@npm:^2.0.0":
   version: 2.0.0
@@ -732,18 +731,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schedule-x/shared@portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/shared::locator=schedule-x-demo%40workspace%3A.":
+"@schedule-x/shared@portal:../schedule-x/packages/shared::locator=schedule-x-demo%40workspace%3A.":
   version: 0.0.0-use.local
-  resolution: "@schedule-x/shared@portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/shared::locator=schedule-x-demo%40workspace%3A."
+  resolution: "@schedule-x/shared@portal:../schedule-x/packages/shared::locator=schedule-x-demo%40workspace%3A."
   languageName: node
   linkType: soft
 
-"@schedule-x/theme-default@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@schedule-x/theme-default@npm:2.0.0"
-  checksum: 10c0/2857b7cdc76871d06e4ec3fa7fa245a4cf16e06ec83712842596d44b981fa404abda0e7e628cd90847c229c918dadd6cb4127888777db29fc41573f6cb1166b3
+"@schedule-x/theme-default@portal:../schedule-x/packages/theme-default::locator=schedule-x-demo%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@schedule-x/theme-default@portal:../schedule-x/packages/theme-default::locator=schedule-x-demo%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@types/estree@npm:1.0.5":
   version: 1.0.5

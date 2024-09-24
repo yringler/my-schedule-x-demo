@@ -25,7 +25,25 @@
     "vite": "^5.3.3"
   },
   "resolutions": {
-    "@schedule-x/calendar": "portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/calendar",
-    "@schedule-x/shared": "portal:/C:/Users/yehuda.ringler/source/repos/schedule-x/packages/shared"
+    "@schedule-x/calendar": "portal:../schedule-x/packages/calendar",
+    "@schedule-x/shared": "portal:../schedule-x/packages/shared",
+    "schedule-x": "portal:../schedule-x",
+    "@schedule-x/assertions": "portal:../schedule-x/libs/assertions",
+    "@schedule-x/e2e-testing": "portal:../schedule-x/libs/e2e-testing",
+    "@schedule-x/eslint-config": "portal:../schedule-x/libs/eslint-config",
+    "@schedule-x/prettier-config": "portal:../schedule-x/libs/prettier-config",
+    "@schedule-x/calendar-controls": "portal:../schedule-x/packages/calendar-controls",
+    "@schedule-x/current-time": "portal:../schedule-x/packages/current-time",
+    "@schedule-x/date-picker": "portal:../schedule-x/packages/date-picker",
+    "@schedule-x/drag-and-drop": "portal:../schedule-x/packages/drag-and-drop",
+    "@schedule-x/event-modal": "portal:../schedule-x/packages/event-modal",
+    "@schedule-x/event-recurrence": "portal:../schedule-x/packages/event-recurrence",
+    "@schedule-x/events-service": "portal:../schedule-x/packages/events-service",
+    "@schedule-x/recurrence": "portal:../schedule-x/packages/recurrence",
+    "@schedule-x/resize": "portal:../schedule-x/packages/resize",
+    "@schedule-x/scroll-controller": "portal:../schedule-x/packages/scroll-controller",
+    "@schedule-x/theme-default": "portal:../schedule-x/packages/theme-default",
+    "@schedule-x/time-picker": "portal:../schedule-x/packages/time-picker",
+    "@schedule-x/translations": "portal:../schedule-x/packages/translations"
   }
 }
