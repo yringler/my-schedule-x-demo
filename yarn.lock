@@ -990,6 +990,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dayjs@npm:^1.11.7":
+  version: 1.11.13
+  resolution: "dayjs@npm:1.11.13"
+  checksum: 10c0/a3caf6ac8363c7dade9d1ee797848ddcf25c1ace68d9fe8678ecf8ba0675825430de5d793672ec87b24a69bf04a1544b176547b2539982275d5542a7955f35b7
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.1, debug@npm:^4.3.4":
   version: 4.3.7
   resolution: "debug@npm:4.3.7"
@@ -1414,12 +1421,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jewish-date@npm:^2.0.11":
-  version: 2.0.11
-  resolution: "jewish-date@npm:2.0.11"
+"jewish-date@npm:^1.0.13":
+  version: 1.0.13
+  resolution: "jewish-date@npm:1.0.13"
   dependencies:
     gematriya: "npm:^2.0.0"
-  checksum: 10c0/87fcbb7094be065d8b1469bf3a7113bd0572782c9b1f63d42e4be66dac2cebdff55d3f96f386291ad59cf4a76c0eb28bb11946e3e6adb10b9dc0a8d0b603b043
+  checksum: 10c0/bb9b046f90115f855189cd06e777a79a1648d5278ac4fd0413c5cffe9f4738f768caae7cea7b08924ce9fb451e60fecb9c670009542422cac22a6a25a14df532
+  languageName: node
+  linkType: hard
+
+"jewish-dates-core@npm:^2.0.12":
+  version: 2.0.12
+  resolution: "jewish-dates-core@npm:2.0.12"
+  dependencies:
+    dayjs: "npm:^1.11.7"
+    jewish-date: "npm:^1.0.13"
+  checksum: 10c0/104cbd38cfaa0be3b2367155e5b22130716cfc10f31b19cb9d168d55741de0955a80ee110c781ffe5a6987fe8c754d5f584677eb9f40f69603527d40081b87c3
   languageName: node
   linkType: hard
 
@@ -1860,7 +1877,7 @@ __metadata:
     "@schedule-x/shared": "npm:^2.0.0"
     "@schedule-x/theme-default": "npm:^2.0.0"
     date-fns: "npm:^4.1.0"
-    jewish-date: "npm:^2.0.11"
+    jewish-dates-core: "npm:^2.0.12"
     preact: "npm:^10.24.0"
     typescript: "npm:^5.6.2"
     vite: "npm:^5.3.3"

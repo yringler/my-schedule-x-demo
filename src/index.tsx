@@ -16,6 +16,7 @@ const dragAndDrop = createDragAndDropPlugin()
 
 import '@schedule-x/theme-default/dist/index.css'
 import { render } from 'preact'
+import { DatesCoreTimeUnits } from './dates-core-impl'
 
 function* getEvents(): Generator<CalendarEvent> {
 
@@ -37,6 +38,7 @@ function CalendarApp() {
 
 	const calendar = useCalendarApp({
 		views: [createViewMonthGrid(), viewMonthAgenda, viewWeek, viewDay],
+		timeUnits: new DatesCoreTimeUnits(),
 		selectedDate: '2023-12-01',
 		defaultView: viewMonthGrid.name,
 		events: [

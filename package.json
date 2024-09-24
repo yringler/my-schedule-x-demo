@@ -16,7 +16,7 @@
     "@schedule-x/shared": "^2.0.0",
     "@schedule-x/theme-default": "^2.0.0",
     "date-fns": "^4.1.0",
-    "jewish-date": "^2.0.11",
+    "jewish-dates-core": "patch:jewish-dates-core@npm%3A2.0.12#~/.yarn/patches/jewish-dates-core-npm-2.0.12-a1ef072384.patch",
     "preact": "^10.24.0"
   },
   "devDependencies": {
